@@ -13,7 +13,6 @@ def speak_to_grandma(phrase)
   else phrase == "WHAT" || phrase == "WHAT DID YOU EAT TODAY?"
     "NO, NOT SINCE 1938!"
   end
-  binding.pry
 end
 
 # If you shout, she can hear you (or at least she thinks so)
