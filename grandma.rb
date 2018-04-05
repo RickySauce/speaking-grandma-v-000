@@ -10,9 +10,7 @@ def speak_to_grandma(phrase)
     "HUH?! SPEAK UP, SONNY!"
  elsif phrase == phrase.upcase && phrase == "I LOVE YOU GRANDMA"
     "I LOVE YOU TOO PUMPKIN!"
-  elsif phrase == phrase.upcase && phrase == "WHAT DID YOU EAT TODAY?"
-    "NO, NOT SINCE 1938!"
-  else phrase == phrase.upcase && phrase == "WHAT"
+  else phrase == "WHAT" || phrase == "WHAT DID YOU EAT TODAY?"
     "NO, NOT SINCE 1938!"
   end
 end
