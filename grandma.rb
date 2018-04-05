@@ -5,8 +5,12 @@
 # unless you shout it (type in all capitals).
 
 
-def speak_to_grandma
-
+def speak_to_grandma(phrase)
+  if !phrase.uppercase
+    puts " HUH?! SPEAK UP, SONNY!"
+  else
+    puts "wot"
+  end
 end
 
 # If you shout, she can hear you (or at least she thinks so)
